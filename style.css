@@ -75,11 +75,15 @@ body {
   align-items: center;
 }
 
-.days div:hover {
+.days div:hover:not(.empty) {
   border: 2px solid #fff;
   cursor: pointer;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.today {
+  background: #00abb3;
 }
