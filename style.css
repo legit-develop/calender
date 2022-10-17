@@ -74,3 +74,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.days div:hover {
+  border: 2px solid #fff;
+  cursor: pointer;
+}
